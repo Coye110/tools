@@ -1,0 +1,183 @@
+zai824  dev        913  relese    数据库密码账号 view/!@View123
+mstsc 远程命令
+KD8093
+==========================================================
+T200559
+http://10.57.115.177/sendMessage 短信查询地址
+msg_admin
+msg123456
+=====================================================
+10.70.64.10  baoadmin/redhat  dev服务器
+
+uat 服务器
+baoadmin
+10.70.95.74	cQ06bet2
+10.70.95.75	D52J9LxB
+
+run 服务器
+deploy
+37  OyeelDS1007
+38  OyeelDS1007	
+
+36425875a1a44011b89e34987e0b54c5   jenkins管理员账号
+idea账户：eglx_sr01@sina.cn
+密码：10241223
+
+
+https://sta.swcportal.org/app/profile/search
+http://haoweichi.com/Index/random
+Coye3306
+
+http://haoweichi.com/Index/random
+idea激活码 http://idea.imsxm.com/
+教育邮箱:jdubois1@madisoncollege.edu  
+密码:Zhangliang1992
+id:2975007
+idea官网账号:18158794003@163.com
+密码：Zhangliang1992
+idea激活https://zhile.io/2018/08/24/jetbrains-license-server-crack.html
+
+
+过滤命令 cat log.log | grep -10 '2017-05-18 14'>~/log.txt
+	sz ~/log.txt
+============================================================
+定时任务
+http://10.70.95.159:8080/xservices-job/jobinfo.action  uat
+
+http://10.70.64.38:8080/xservices-node/toLogin dev
+
+====================================================
+cd /home/admin/taobao-tomcat-production-7.0.59.3/logs
+tail -f -n 20 catalina.out
+cat log.log | grep -C 5 ""
+=======================================================
+http://10.70.95.14/zentao 任务分配地址
+http://10.70.95.16:8080/#/serviceList/publisher  devedas地址(使用时host：10.70.95.16   jmenv.tbsite.net)
+edas.console.shgtuat.com   uat eads地址（使用时host：10.70.95.54 jmenv.tbsite.net）
+
+clean deploy -Dmaven.javadoc.skip=true 发布命令
+clean install -Dadditionalparam=-Xdoclint:none -P dev 
+confluence.shgt.com ,jira.shgt.com
+http://uat-new.shgt.com/resource-new/test_bx_send/  uat优惠券触发
+阿亮123123
+maven私服 http://10.70.95.15:9080/nexus/   
+1qazxsw2
+hy_develop_20160808
+http://uat.shgt.com/account-ng    uat环境
+http://10.70.64.6:8080/account-ng/ dev环境
+http://uat.shgt.com/resource-new/test_bx_send/  优惠券同步
+
+C:\Users\Administrator\AppData\Roaming\Embarcadero\ERStudio\SQLCode sql生成地址
+
+
+获取id
+NextSerialNoCommand nextSerialNoCommand = new NextSerialNoCommand("THyAccountCompanyTemp");
+			Integer companyTempGuid = Integer.parseInt(serialGenerator.getNextSerialNo(nextSerialNoCommand))
+获取企业code
+NextCompanyCodeCommand nextCompanyCodeCommand = new NextCompanyCodeCommand(AccountConstants.AMOUNT_COMPANY);
+			username = serialGenerator.getNextCompanyCode(nextCompanyCodeCommand);	
+alter table test change id  id int default 0;	
+修改mysql默认排序规则utf8—bin区分大小写	
+companyUserService.changeLastLoginDateByUserId(userid);
+
+多表left join 查询 主表的条件需要放在where里面 从表放在 left join on里面(关联条件放在jion里面)
+
+如果用mybatis查询一对多再对多等 存在多对多的关系时 mybatis自动封装list会出现笛卡尔积 重复的很多
+必须将多对多拆开查询
+
+
+http://www.runoob.com/ jquery教程
+varchar搞不定就换mediumText
+10.57.123.98	
+255.0.0.0
+10.57.123.1
+101.226.4.6
+114.114.114.114
+springMVC在封装pojo时候 如果text文本框没有值 会封装成一个空字符串
+mybatis 查询自动封装的时候 如果是个list对象会返回一个空的list对象 不用判断非空
+			如果返回的是一个实体，则返回的是null 需要判断非空(前提是xml返回用的resultMap)
+shgt.direct
+ 
+//正则测试地址 tool.oschina.net/regex
+http://10.70.95.14:9000/dashboard/index?did=1  sona
+
+****双重for循环的时候 需要注意第二层for循环满足条件的对象是否是同一个，如果是同一个在下面做修改的时候所有都会被修改，切记
+PropertyDescriptor 这个类可以用来通过field名获取对应的getMethod
+@postConstruct 初始化类的时候调用
+
+isAssignableFrom比较class类型 source是父类或者本身
+
+BeanInfo beanInfo = Introspector.getBeanInfo(obj.getClass());
+                PropertyDescriptor[] propertyDescriptors = beanInfo.getPropertyDescriptors();
+
+计算出来的KEY和RESULT:
+KEY:
+305c300d06092a864886f70d0101010500034b003048024100878e6bea07d7052499419efe4ed4382f426dc5ca2d01140f896a6d0566526c6757ff591347d888bd032f94ce92609ce0cc349de0ba9043dc3163f9667438a14d0203010001
+RESULT:
+414834456369b9329793f0b42c6c0af67d00516c7ceb136ad221fa0355dc2cd611ed1bcd36b61d00ba7e587d253c1de145831cd0d65b891c9dc34430f9e69c59
+
+
+function<? super T, ? extends R>(
+
+	R apply(T t);
+
+)
+JSON.toJSONString        SerializerFeature属性控制输出
+JSON.parseObject(form, new TypeReference<Map<String, Object>>() {});
+
+thymeleaf i,stat:#numbers.sequence(5,20) 如果跳步数为3的话 th:if="(stat.count-1)%3==0", stat.count从1开始
+isAssignableFrom判断是否是父类
+instanceof 判断是否是子类
+一般class的应用应该是类名+this,在内部类中引用外部类的变量需要OutClass.this.变量名 引用
+file:///+路径是访问系统文件的方法
+html base64 src 可把图片流转为base64 然后再获取
+PdfUtils.class.getClassLoader().getResource("").toString() 获取classes项目路径
+https://www.iplaysoft.com/linux-probe-book.html
+
+
+taskkill /f /im java.exe
+git config --system --unset credential.helper     git重新输入账号密码
+
+git config --global credential.helper store   git重新设置账号密码并保存，需要重新执行一下更新或提交命令
+
+
+java 传递只有值传递
+<a href="javascript:self.location=document.referrer;"/>   返回上一级并刷新
+    
+mvn install:install-file -DgroupId=com.chemcn.ec -DartifactId=new-pdf -Dversion=1.0.1 -Dpackaging=jar -Dfile=C:\Users\Administrator\Desktop\flying-saucer-core-9.0.7.jar
+
+
+
+http://cron.qqe2.com/       定时任务表达式生成器
+
+https://search.maven.org/      查询maven最新pom地址
+
+说下KEY和RESULT的使用方法:
+1、安装官方版mybatis plus插件,然后关闭IDEA
+2、hosts中添加127.0.0.1 www.codesmagic.com 
+
+
+cors 跨域调用  csrf Cross Site Request Forgery防止跨站调用
+在搭建springboot项目 使用yml时 如果想使用yml中的@@取值 需配置maven-resources-plugin resources配置字体防止maven解析时最好写在plugin中 写在外面会使@@不生效
+echo $LANG 查看Linux服务器编码
+springboot log加载入口 LoggingApplicationListener
+jvisualvm windows下可检测线程死锁
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3、记事本打开C:\Users\{USER}\.IntelliJIdea{VERSION}\config\options\mybatis.xml，写入到对应的字段中，打开idea，mybatis插件已经激活
